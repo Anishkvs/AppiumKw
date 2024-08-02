@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.STC.TestUtils.Listeners"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="stcLoggedUser.TC_01_CivilId_LoginScenario" />
+			<class name="stcLoggedUser.TC_02_OTP_Login_Scenario" />
+			<class name="stcLoggedUser.TC_03_Dashboard_Your_Usage" />
+			<class name="stcLoggedUser.TC_05_Subscription_Upgrade_ComparePlan" />
+
+			<class name="stcLoggedUser.TC_06_Dashboard_Manage_Subscription_PayBill" />
+			<class name="stcLoggedUser.TC_07_Dashboard_PayAdvance" />
+			<class name="stcLoggedUser.TC_08_Dashboard_AddOns" />
+			<class name="stcLoggedUser.TC_09_Dashboard_EVoucher" />
+			<class name="stcLoggedUser.TC_10_Dashboard_Bill_PostPaid" />
+			<class name="stcLoggedUser.TC_11_Dashboard_Bill_Prepaid" />
+			<class name="stcLoggedUser.TC_12_DashBoard_Roaming_Other" />
+			<class name="stcLoggedUser.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill" />
+			<class name="stcLoggedUser.TC_20_EStore" />
+			<class name="stcLoggedUser.TC_21_MainDashBoard" />
+			<class name="stcLoggedUser.TC_23_Qitaf" />
+			<class name="stcLoggedUser.TC_24_Qitaf_login" />
+			<class name="stcLoggedUser.TC_25_BurgerMenu" />
+
+
+
+		</classes>
+	</test>
+</suite> 

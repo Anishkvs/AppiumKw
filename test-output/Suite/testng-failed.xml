@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.STC.TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="stcGetNewLine.TC_03_Get_new_line_internet_postpaid_without_device">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_Get_new_line_internet_postpaid_without_device"/>
+        </methods>
+      </class> <!-- stcGetNewLine.TC_03_Get_new_line_internet_postpaid_without_device -->
+      <class name="stcGetNewLine.TC_04_Get_new_line_internet_prepaid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_Get_new_line_internet_prepaid"/>
+        </methods>
+      </class> <!-- stcGetNewLine.TC_04_Get_new_line_internet_prepaid -->
+      <class name="stcGetNewLine.TC_02_Get_new_line_mobile_postpaid_with_device">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_Get_new_line_mobile_postpaid_with_device"/>
+        </methods>
+      </class> <!-- stcGetNewLine.TC_02_Get_new_line_mobile_postpaid_with_device -->
+      <class name="stcGetNewLine.TC_01_Get_new_line_mobile_prepaid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_GetNewLineMobilePrepaid"/>
+        </methods>
+      </class> <!-- stcGetNewLine.TC_01_Get_new_line_mobile_prepaid -->
+      <class name="stcGuest.EStore.TC_20_GuestUserSmartPhones">
+        <methods>
+          <include name="sc_GuestUserSmartPhones"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- stcGuest.EStore.TC_20_GuestUserSmartPhones -->
+      <class name="stcGuest.TC_12_GuestRoamingDestination">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_GuestUser_RoamingDestination"/>
+        </methods>
+      </class> <!-- stcGuest.TC_12_GuestRoamingDestination -->
+      <class name="stcGuest.TC_11_GuestUserExploreDevices">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_GuestUser_ExploreDevices"/>
+        </methods>
+      </class> <!-- stcGuest.TC_11_GuestUserExploreDevices -->
+      <class name="stcGuest.EStore.TC_22_GuestUser_E_Store">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sc_GuestUser_E_Store"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- stcGuest.EStore.TC_22_GuestUser_E_Store -->
+      <class name="stcGuest.TC_AddCardScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_AddCardScenario"/>
+        </methods>
+      </class> <!-- stcGuest.TC_AddCardScenario -->
+      <class name="stcGuest.TC_13_GuestUserEVouchers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="sc_GuestUser_eVouchers"/>
+        </methods>
+      </class> <!-- stcGuest.TC_13_GuestUserEVouchers -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

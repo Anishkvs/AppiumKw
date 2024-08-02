@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.STC.TestUtils.Listeners"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="stcThree.TC_01_Get_new_line_mobile_prepaid" />
+			<class name="stcThree.TC_04_Get_new_line_internet_prepaid" />
+			<class name="stcGuest.TC_12_GuestRoamingDestination" />
+			<class name="stcGuest.TC_11_GuestUserExploreDevices" />
+			<class name="stcThree.TC_02_Get_new_line_mobile_postpaid_with_device" />
+			<class name="stcThree.TC_03_Get_new_line_internet_postpaid_without_device" />
+			<class name="stcFive.TC_09_E_Store" />
+			<class name="stcFour.BurgerMenu" />
+			<class name="stcFive.TC_10_Qitaf" />
+
+			<!--		<class name="stcFive.TC_08_MainDashBoard" />-->
+		<!--
+			<class name="stcThree.TT.TC_01_Get_new_line_mobile_prepaid" />
+			<class name="stcThree.TT.TC_02_Get_new_line_mobile_postpaid_with_device" />
+			<class name="stcThree.TT.TC_03_Get_new_line_internet_postpaid_without_device"
+			/>
+			<class name="stcThree.TT.TC_04_Get_new_line_internet_prepaid" />
+	
+			<class name="stcThree.TC_01_Get_new_line_mobile_prepaid" />
+			<class name="stcThree.TC_02_Get_new_line_mobile_postpaid_with_device" />
+			<class name="stcThree.TC_03_Get_new_line_internet_postpaid_without_device" />
+			<class name="stcThree.TC_04_Get_new_line_internet_prepaid" />
+	 -->
+		</classes>
+	</test> <!--
+				<class name="stcTwo2B.TC_16_Dashboard_AddOns" />
+
+	Test -->
+</suite> <!--
+Suite -->
